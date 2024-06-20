@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pymongo-cursor-mutex"
+version = "0.1.0"
+description = ""
+authors = [""]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pymongo = {version = "3.11", extras = ["srv"]}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
